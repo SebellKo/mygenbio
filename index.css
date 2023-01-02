@@ -37,7 +37,24 @@ html, body {
 .home_img img {
     width: 50%;
     height: 50%;
-    transform: scale(1.3);
+    transition: all 1s ease-in-out;
+}
+
+
+.home_heart {
+    transform: scale(1.3) translateX(-100%) translateY(-100%);
+}
+
+.home_water {
+    transform: scale(1.3) translateX(-100%) translateY(100%);
+}
+
+.home_pill {
+    transform: scale(1.3) translateX(100%) translateY(-100%);
+}
+
+.home_cross {
+    transform: scale(1.3) translateX(100%) translateY(100%);
 }
 
 .home_logo {
@@ -80,7 +97,7 @@ html, body {
 }
 
 .about_contents {
-    width: 80%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -159,6 +176,9 @@ html, body {
  ._shop {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .shop_contents {
@@ -177,7 +197,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;   
-    margin-left: 100%;
+    margin-left: 105%;
 }
 
 .package_list {
@@ -206,6 +226,12 @@ html, body {
     margin: 0 20px;
 }
 
+.package_list li img {
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 0 0 20px 10px rgb(0 0 0 / 5%); */
+}
+
 /* ///////////////////////////////////////////////////news */
 
 ._news {
@@ -223,7 +249,7 @@ html, body {
 }
 
 .news_wrapper {
-    width: 80%;
+    width: 70%;
     height: 50%;
     display: flex;
     justify-content: space-between;
@@ -238,6 +264,12 @@ html, body {
     border-radius: 25px;
     box-shadow: 0 0 39px 16px rgb(0 0 0 / 3%);
     margin-bottom: 10%;
+}
+
+.news_wrapper img {
+    width: 100%;
+    height: 90%;
+    border-radius: 25px;
 }
 
 

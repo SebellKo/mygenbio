@@ -7,6 +7,7 @@
     <title>mygenbio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="animation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -14,12 +15,12 @@
     <div id="container" class="_container">
         <div id="home" class="_home">
             <div class="home_img">
-                <img src="./img/heart.svg" alt="heart">
-                <img src="./img/pill.svg" alt="heart">
-                <img src="./img/water.svg" alt="heart">
-                <img src="./img/cross.svg" alt="heart">
+                <img id='homeHeart' class="home_heart" src="./img/heart.svg" alt="heart">
+                <img id='homePill' class='home_pill' src="./img/pill.svg" alt="heart">
+                <img id='homeWater' class="home_water" src="./img/water.svg" alt="heart">
+                <img id='homeCross' class='home_cross' src="./img/cross.svg" alt="heart">
             </div>
-            <span class="home_logo">mygenbio</span>
+            <span id='homeLogo' class="home_logo fadein">mygenbio</span>
         </div>
         <div id="about" class="_about">
             <div class="about_who">
@@ -31,7 +32,7 @@
                     </div>
                     <div class="watch_contents">
                         <div class="num_content">
-                            <img src="./img/cross.svg" alt="">
+                            <img src="./img/products.svg" alt="">
                             <h2>50+</h2>
                             <span>Products</span>
                         </div>
@@ -41,12 +42,12 @@
                             <span>Happy Patients</span>
                         </div>
                         <div class="num_content">
-                            <img src="./img/pill.svg" alt="">
+                            <img src="./img/staff.svg" alt="">
                             <h2>50+</h2>
                             <span>staff</span>
                         </div>
                         <div class="num_content">
-                            <img src="./img/water.svg" alt="">
+                            <img src="./img/experience.svg" alt="">
                             <h2>5</h2>
                             <span>Years Experience</span>
                         </div>
@@ -109,8 +110,12 @@
                 
                 <div class="package_contents">
                     <ul class="package_list">
-                        <li>A</li>
-                        <li>B</li>
+                        <li>
+                            <img src="./img/pacakge.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/pacakge.svg" alt="">
+                        </li>
                         <li>C</li>
                     </ul>
                     <img class='more_btn' src="./img/more_btn.svg" alt="">
@@ -129,9 +134,15 @@
             <div class="news_contents">
                 <h2>Latest News</h2>
                 <div class="news_wrapper">
-                    <div>news</div>
-                    <div>news</div>
-                    <div>news</div>
+                    <div>
+                        <img src="./img/news1.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/news2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/news3.png" alt="">
+                    </div>
                     <div>news</div>
                     <div>news</div>
                     <div>news</div>
@@ -150,5 +161,6 @@
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
