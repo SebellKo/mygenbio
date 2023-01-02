@@ -1,0 +1,274 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Unbounded';
+    background-color: #f8f9fa;
+
+}
+
+._container {
+    width: 100%;
+    height: 100%;
+}
+
+._home {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+._faq {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ////////////////////////////////////////// home */ 
+.home_img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    overflow: hidden;
+}
+
+.home_img img {
+    width: 50%;
+    height: 50%;
+    transform: scale(1.3);
+}
+
+.home_logo {
+    color: #040927;
+    font-weight: bold;
+    font-size: 5rem;
+    position: absolute;
+    z-index: 99;
+    left: 36%;
+    top: 45%;
+}
+
+/* //////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////// about*/
+
+._about {
+    width: 100%;
+    height: 300%;
+    /* background-color: #eeeced; */
+    display: flex;
+    flex-direction: column;
+}
+
+.about_who, .about_what, .about_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about_who { 
+    /* background-color: violet; */
+}
+
+.about_what {
+    /* background-color: aquamarine; */
+    /* display: none; */
+}
+
+.about_contents {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.watch_contents {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 39px 16px rgb(0 0 0 / 5%);
+}
+
+.watch_contents iframe {
+    width: 40%;
+    height: 95%;
+}
+
+.num_content {
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.num_content img {
+    width: 100px;
+    height: 100px;
+}
+
+.text_contents {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.text_contents span {
+    color: #444;
+}
+
+.about_text img {
+    width: 200px;
+    height: 200px;
+}
+
+.about_text_check {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.red_text {
+    color: #B60C0C;
+}
+
+.green_text {
+    color: #075622;
+}
+
+ /* ///////////////////////////////////////////////////// shop */
+
+
+ ._shop {
+    width: 100%;
+    height: 100%;
+}
+
+.shop_contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.package_contents {
+    width: 200%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+    margin-left: 100%;
+}
+
+.package_list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.more_btn {
+    width: 50px;
+    height: 50px;
+}
+
+.package_contents li {
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 39px 16px rgb(0 0 0 / 5%);
+}
+
+.shop_btns img {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+/* ///////////////////////////////////////////////////news */
+
+._news {
+    width: 100%;
+    height: 100%;
+}
+
+.news_contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.news_wrapper {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.news_wrapper div {
+    width: 30%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 39px 16px rgb(0 0 0 / 3%);
+    margin-bottom: 10%;
+}
+
+
+/* ///////////////////////////////////////// faq */
+
+
+
+/* //////////////////////////////////////////////////// contact*/
+
+._contact {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.contact_contents {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.phone {
+    font-size: 0.8em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
